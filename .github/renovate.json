@@ -16,5 +16,13 @@
         "addLabels": [
             "security"
         ]
+    },
+    "pip-compile": {
+        "fileMatch": [
+            "(^|/)requirements\\.in$"
+        ]
+    },
+    "constraints": {
+        "python": "==3.9"
     }
 }
