@@ -1,0 +1,26 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:best-practices"
+    ],
+    "packageRules": [
+        {
+            "enabled": false,
+            "matchPackagePatterns": [
+                "*"
+            ]
+        }
+    ],
+    "vulnerabilityAlerts": {
+        "enabled": true,
+        "addLabels": [
+            "security"
+        ],
+        "schedule": [
+            "* 10 * * 1-5"
+        ]
+    },
+    "prConcurrentLimit": 5,
+    "branchConcurrentLimit": 5,
+    "timezone": "Asia/Tokyo"
+}
