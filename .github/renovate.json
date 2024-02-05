@@ -3,6 +3,14 @@
     "extends": [
         "config:recommended"
     ],
+    "packageRules": [
+        {
+            "enabled": false,
+            "matchPackagePatterns": [
+                "*"
+            ]
+        }
+    ],
     "vulnerabilityAlerts": {
         "enabled": true,
         "addLabels": [
