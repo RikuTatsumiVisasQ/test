@@ -15,9 +15,6 @@
         "enabled": true,
         "addLabels": [
             "security"
-        ],
-        "schedule": [
-            "* 10 * * 1-5"
         ]
     },
     "prConcurrentLimit": 5,
